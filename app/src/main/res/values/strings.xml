@@ -7,11 +7,17 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_view_habitat_text">Habitat</string>
     <string name="text_view_brown_bear_habitat">Brown bears can be found in many habitats, from the fringes of deserts to high mountain forests and ice fields.</string>
-    <string name="text_view_coral_snake_habitat">The eastern coral snake is found in scattered localities in the southern Coastal Plain from North Carolina to Louisiana, including all of Florida, where they are most prevalent.</string>
+    <string name="text_view_coral_snake_habitat">The eastern coral snake is found in scattered localities in the southern Coastal Plain from North Carolina to Louisiana, including all of Florida.</string>
     <string name="text_view_gecko_habitat">Geckos are found in a wide variety of habitats in the warmer parts of the world including rocky deserts, mountains, jungles, rainforests, grasslands and even in urban areas where it is common to find geckos in houses.</string>
     <string name="text_view_grizzly_bear_habitat">Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra.</string>
     <string name="text_view_tortoise_habitat">Mediterranean tortoises have evolved to thrive in hot, dry places where vegetation is often sparse particularly in summer. Typically they live on south-facing hillsides, sleeping at night under rocks and thorny bushes.</string>
     <string name="text_view_wombat_habitat">They are adaptable in habitat tolerance, and are found in forested, mountainous, and heathland areas of south-eastern Australia, including Tasmania, as well as an isolated patch in Epping Forest National Park in central Queensland.</string>
     <string name="text_view_description_text">Description</string>
+    <string name="text_view_brown_bear_description">The Brown Bear is one of the most omnivorous animals in the world and has been recorded as consuming the greatest variety of foods of any bear.</string>
+    <string name="text_view_coral_snake_description">Coral snakes possess a pair of small fangs to deliver their venom. These fangs, which are enlarged and hollow, deliver their venom to their prey species, feeding mostly on smaller snakes, lizards, frogs, nestling birds, etc.</string>
+    <string name="text_view_gecko_description">Geckos are carnivorous reptiles so the diet of the gecko is based on meat from other animals. Geckos primarily eat insects and worms.</string>
+    <string name="text_view_grizzly_bears_description">Grizzly bears are omnivores, and their diet can vary widely. They may eat seeds, berries, roots, grasses, fungi, deer, elk, fish, dead animals and insects.</string>
+    <string name="text_view_tortoise_description">Most land-based tortoises are herbivores, feeding on grasses, weeds, leafy greens, flowers, and some fruits, although some omnivorous species are in this family.</string>
+    <string name="text_view_wombat_description">Common wombats are herbivorous, subsisting off grass, snow tussocks and other plant materials. Foraging is usually done during the night.</string>
 
 </resources>

@@ -47,4 +47,16 @@
         android:layout_alignStart="@+id/text_view_habitat_description"
         android:layout_marginTop="@dimen/label_margin_top" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_view_brown_bear_description"
+        android:id="@+id/text_view_description_lifestyle"
+        android:layout_below="@+id/text_view_description"
+        android:layout_alignLeft="@+id/text_view_description"
+        android:layout_alignStart="@+id/text_view_description"
+        android:layout_marginTop="@dimen/text_margin_top"
+        android:layout_marginRight="@dimen/text_margin_right" />
+
 </RelativeLayout>
