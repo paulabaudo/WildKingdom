@@ -6,6 +6,7 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -14,6 +15,7 @@ import android.widget.TextView;
  */
 public class GrizzlyBearFragment extends Fragment {
 
+    View mRootView;
 
     public GrizzlyBearFragment() {
         // Required empty public constructor
@@ -23,10 +25,22 @@ public class GrizzlyBearFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
-        return textView;
+        mRootView = inflater.inflate(R.layout.fragment_grizzly_bear, container, false);
+        init();
+        return mRootView;
     }
 
+    private void init(){
+        Button nextAnimalButton = (Button) mRootView.findViewById(R.id.button_grizzly_bear);
+
+        nextAnimalButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().
+                        replace(R.id.frame_container, new WombatFragment()).
+                        addToBackStack(null).commit();
+            }
+        });
+    }
 
 }

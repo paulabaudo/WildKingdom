@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:id="@+id/">
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_view_brown_bear"
+        android:id="@+id/text_view_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button_brown_bear"
+        android:layout_alignStart="@+id/button_brown_bear" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/image_brown_bear"
         android:src="@drawable/brown_bear"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_view_title"
         android:layout_marginTop="@dimen/image_margin_top" />
 
     <TextView
@@ -58,5 +68,14 @@
         android:layout_alignStart="@+id/text_view_description"
         android:layout_marginTop="@dimen/text_margin_top"
         android:layout_marginRight="@dimen/text_margin_right" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next_animal"
+        android:id="@+id/button_brown_bear"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background" />
 
 </RelativeLayout>
