@@ -12,5 +12,6 @@
     <string name="text_view_grizzly_bear_habitat">Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra.</string>
     <string name="text_view_tortoise_habitat">Mediterranean tortoises have evolved to thrive in hot, dry places where vegetation is often sparse particularly in summer. Typically they live on south-facing hillsides, sleeping at night under rocks and thorny bushes.</string>
     <string name="text_view_wombat_habitat">They are adaptable in habitat tolerance, and are found in forested, mountainous, and heathland areas of south-eastern Australia, including Tasmania, as well as an isolated patch in Epping Forest National Park in central Queensland.</string>
+    <string name="text_view_description_text">Description</string>
 
 </resources>

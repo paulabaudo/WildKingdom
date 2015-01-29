@@ -34,4 +34,15 @@
         android:layout_marginTop="@dimen/text_margin_top"
         android:text="@string/text_view_coral_snake_habitat"
         android:layout_marginRight="@dimen/text_margin_right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_view_description_text"
+        android:id="@+id/text_view_description"
+        android:layout_below="@+id/text_view_habitat_description"
+        android:layout_alignLeft="@+id/text_view_habitat_description"
+        android:layout_alignStart="@+id/text_view_habitat_description"
+        android:layout_marginTop="@dimen/label_margin_top" />
 </RelativeLayout>
