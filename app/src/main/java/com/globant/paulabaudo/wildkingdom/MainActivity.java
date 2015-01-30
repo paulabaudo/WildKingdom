@@ -14,8 +14,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         FragmentManager fragmentManager = getFragmentManager();
+        getFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         fragmentManager.beginTransaction().add(R.id.frame_container, new StartFragment()).
-                addToBackStack(null).commit();
+                commit();
     }
 
 
